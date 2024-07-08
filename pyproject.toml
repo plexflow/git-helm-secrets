@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "git-helm-secrets"
+version = "0.1.0"
+description = ""
+authors = ["plexflow <plex.schotmans@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyyaml = "^6.0.1"
+termcolor = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
